@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --color-primary: #5721f2;
+  --color-on-surface: #000;
+  --primary1: #0F162d;
+  --primary2: #ca59ff;
+  --primary3:#6C7CFF;
+  --primary4:#2AFFFF;
+  --primary5:#FFF629;
+  --secondary1:#fff;
+  --secondary2:#272D42;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.2%;
+    font-weight: medium;
+    font-family: "DM Sans";
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: medium;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.2%;
+    font-weight: medium;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: medium;
+  }
+}
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.2%;
+    font-weight: normal;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: medium;
+    color: var(--secondary1);
+    margin: 5%;
+  }
+  body {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .body2 {
+    margin: 0 5% 0 5%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=root.css.map */
